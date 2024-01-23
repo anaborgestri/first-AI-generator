@@ -7,29 +7,44 @@
     <title>AI Generator</title>
   </head>
   <body>
-    <header><h1>Welcome! I am your AI Assistant</h1></header>
-    <main>
-      <form action="">
-        <input type="text" placeholder="Enter the theme of your poem" />
-        <input type="submit" />
-      </form>
-      <div class="output">
-        Bate leve, levemnte <br />
-        Como quem chama por mim <br />
-      </div>
-    </main>
+    <div class="container">
+      <header><h1>AI Poet</h1></header>
+
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Enter the theme of your poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="output">
+          Bate leve, levemnte <br />
+          Como quem chama por mim <br />
+        </div>
+      </main>
+      <footer>
+        This project was created by
+        <a href="https://github.com/anaborgestri" target="_blank">Ana Borges</a>
+        and it is available in
+        <a
+          href="https://github.com/anaborgestri/first-AI-generator"
+          target="_blank"
+          >Github</a
+        >
+        and deployed with
+        <a
+          href="https://magnificent-cheesecake-54f9d8.netlify.app/"
+          target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
   </body>
-  <footer>
-    This project was created by
-    <a href="https://github.com/anaborgestri" target="_blank">Ana Borges</a> and
-    it is available in
-    <a href="https://github.com/anaborgestri/first-AI-generator" target="_blank"
-      >Github</a
-    >
-    and deployed with
-    <a href="https://magnificent-cheesecake-54f9d8.netlify.app/" target="_blank"
-      >Netlify</a
-    >
-  </footer>
+
   <script src="script.js"></script>
 </html>
