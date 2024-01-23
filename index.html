@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="style.css" />
     <title>AI Generator</title>
   </head>
@@ -11,7 +12,7 @@
       <header><h1>AI Poet</h1></header>
 
       <main>
-        <form action="">
+        <form id="poem-form">
           <input
             type="text"
             placeholder="Enter the theme of your poem"
@@ -22,10 +23,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="output">
-          Bate leve, levemnte <br />
-          Como quem chama por mim <br />
-        </div>
+        <div class="output" id="poem"></div>
       </main>
       <footer>
         This project was created by
